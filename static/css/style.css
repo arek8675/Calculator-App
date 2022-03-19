@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+}
+
+.grid-container {
+    display: grid;
+    justify-content:center;
+    grid-template-columns: 75px 75px 75px 75px 75px;
+    row-gap: 5px;
+    column-gap: 10px;
+    background-color: black;
+    margin: 200px;
+    padding: 15px 10px;
+    
+
+    
+}
+
+.grid-item {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    
+    padding: 10px;
+}
+
+#screen{
+    background-color: white;
+    border: solid 3px blue;
+    height: 20px;
+
+
+}
